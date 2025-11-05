@@ -4,16 +4,16 @@ import (
 	"log"
 	"os"
 
-	"github.com/open-uem/openuem-messenger/commands"
+	"github.com/scncore/scnorion-messenger/commands"
 	"github.com/urfave/cli/v2"
 )
 
 func main() {
 	app := &cli.App{
-		Name:      "openuem-message",
+		Name:      "scnorion-message",
 		Commands:  getCommands(),
-		Usage:     "Show OpenUEM messages to Windows users",
-		Authors:   []*cli.Author{{Name: "Miguel Angel Alvarez Cabrerizo", Email: "mcabrerizo@openuem.eu"}},
+		Usage:     "Show scnorion messages to Windows users",
+		Authors:   []*cli.Author{{Name: "Miguel Angel Alvarez Cabrerizo", Email: "mcabrerizo@scnorion.eu"}},
 		Copyright: "2024 - Miguel Angel Alvarez Cabrerizo <https://github.com/doncicuto>",
 	}
 

@@ -18,7 +18,7 @@ type Message struct {
 func InfoMessage() *cli.Command {
 	return &cli.Command{
 		Name:   "info",
-		Usage:  "Send an OpenUEM's info message",
+		Usage:  "Send an scnorion's info message",
 		Flags:  InfoFlags(),
 		Action: showInfoMessage,
 	}

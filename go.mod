@@ -1,4 +1,4 @@
-module github.com/open-uem/openuem-messenger
+module github.com/scncore/scnorion-messenger
 
 go 1.24.4
 
